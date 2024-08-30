@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="logo">
+        <img src="assets/tetris.png" alt="Tetris by Trina">
+    </div>
+
+    <div id="gameContainer">
+        <canvas id="tetris" width="240" height="400"></canvas>
+        <div id="score">0</div>
+    </div>
+
+    <div id="controls">
+        <p>Controls:</p>
+        <ul>
+            <li><strong>Left Arrow:</strong> Move Left</li>
+            <li><strong>Right Arrow:</strong> Move Right</li>
+            <li><strong>Down Arrow:</strong> Move Down</li>
+            <li><strong>Up Arrow:</strong> Rotate</li>
+        </ul>
+    </div>
+
+    <script src="tetris.js"></script>
+</body>
+</html>
